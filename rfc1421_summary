@@ -27,5 +27,6 @@ Types of Keys :
    The definition of an IK differs depending on whether symmetric or asymmetric cryptography is used for DEK encryption:
       2a. When symmetric cryptography is used for DEK encryption : an IK is a single symmetric key shared between an originator and a receipient.
       2b. When asymmetric cryptography is used, the IK component used for DEK encryption is the public component of the recipient.
-          The IK component used for MIC encryption is the private component of the originator, and therefore only one encrypted MIC representation meed to be included per message, rather than one per receipient. Each of these IK components can be fully qualified in a Recipient-ID or Originator-ID field, respectively.
+          The IK component used for MIC encryption is the private component of the originator, and therefore only one encrypted MIC representation need to be included per message, 
+          rather than one per receipient. Each of these IK components can be fully qualified in a Recipient-ID or Originator-ID field, respectively.
  
