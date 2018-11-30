@@ -4,7 +4,7 @@ IETF RFC 1421 Privacy Enhancement for Internet Electronic Mail Part I: Message E
 
 This document defines message encryption and authentication procedure for privacy-enhanced mail(PEM) service.
 
-#Privacy enhancement services :
+Privacy enhancement services :
  - confidentiality
  - authentication
  - message integrity assurance
@@ -21,6 +21,6 @@ The collection of UAs and MTAs is called the Message Handling System (MHS). The 
 
 4. Processing of Messages
 
-#Types of Keys :
+Types of Keys :
  - Data Encrypting Keys (DEKs) are used for encryption of message text for computation of message integrity check (MIC) quantities.
  - Interchange Keys (IKs) are used to encrypt DEKs for transmission within messages.
